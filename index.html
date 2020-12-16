@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> RegEx to Minimized DFA </title>
+
+<style>
+	div {
+		width: 540px;
+		padding: 9px;
+		border: 5px solid black;
+	}
+</style>
+</head>
+
+<body>
+
+	<div style = "position: relative; left: 13px; top: 18px">
+		Welcome to the Deterministic Finite State machine generator! This program allows you to input a
+		regular expression consisting of 1's and 0's, and it will generate a fully-minimized DFA based on
+		your chosen expression.
+		<br> <br>
+		Your expression may include parenthesis, concatonation, alternation (given by '|'), Kleene 
+		concatonation (given by '*' or '+', depending on whether or not the empty string is accepted), 
+		and '?' for 'or the empty string'.
+		<br> <br>
+		Enter your regular expression below:
+	</div>
+
+	<form id="firstInput" action="#" onsubmit="return false">
+		<input   style = "position:absolute;top:31%;left:2.2%;width:15%"; type="text" id="regExp" value="">
+		<input   style = "position:absolute;top:31%;left:18.2%"; type="submit" value="submit">
+	</form>
+
+	<script src="bundle.js"></script>
+
+</body>
+</html>
