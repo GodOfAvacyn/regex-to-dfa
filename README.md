@@ -10,6 +10,9 @@
 * HTML page where you can generate your own DFA by inputing your own regular                    *
 * expression and seeing how its DFA behaves.                                                    *
 *                                                                                               *
+* A small note: the FIRST time you input something on the html page, sometimes it               *
+* reloads for no reason. But this only happens once when you open it up; never more.            *
+*                                                                                               *
 *                                                                                               *
 * Author: Aiden Meyer                                                                           *
 * Version: 1.0.0                                                                                *
